@@ -10,7 +10,7 @@ function Main() {
             </h1>
 
             <h4 className='text-xl font-semibold text-center py-4'>
-                I am a third year student in information security at the Technological College of Omsk. I'm also self-taught, I'm very interested in frontend and backend development. I'm very interested in creating things related to technology and art. I enjoy learning on platforms that help me improve my skills, such as:
+                I am a third year student in information security at the Technological College of Omsk. I&apos;m also self-taught, I&apos;m very interested in frontend and backend development. I&apos;m very interested in creating things related to technology and art. I enjoy learning on platforms that help me improve my skills, such as:
             </h4>
 
             <p className='text-base font-bold text-center'>
