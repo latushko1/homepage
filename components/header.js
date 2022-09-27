@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Logo from './logo.svg'
 import { useEffect, useState } from 'react'
 import Dropdown from './dropdown'
+import Link from 'next/link'
 
 function Header() {
 
