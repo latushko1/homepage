@@ -28,6 +28,7 @@ function Header() {
     setTheme(theme === 'dark' ? 'light' : 'dark')
   }
 
+
   return (
     <div className='fixed w-full z-50'>
         <div className='flex justify-between items-center py-2 backdrop-blur-md'>
