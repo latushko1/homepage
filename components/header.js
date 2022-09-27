@@ -10,7 +10,7 @@ function Header() {
   const [theme, setTheme] = useState(null)
 
   useEffect(() => {
-    if(window.matchMedia('(preferens-color-scheme: dark)').matches){
+    if(window.matchMedia('(prefers-color-scheme: dark)').matches){
       setTheme('dark')
     } else{
       setTheme('light')
@@ -19,9 +19,9 @@ function Header() {
 
   useEffect(()=>{
     if(theme === 'dark'){
-      document.documentElement.classList.toggle('dark')
+      document.documentElement.classList.add('dark')
     } else{
-      document.documentElement.classList.toggle('dark')
+      document.documentElement.classList.remove('dark')
     }
   }, [theme])
 

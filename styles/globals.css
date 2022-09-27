@@ -38,3 +38,8 @@ html{
     background-color: #c09300;
     border-radius: 10px;
   }
+
+.vis{
+  display: block;
+  transition: all 1.5s ease;
+}
