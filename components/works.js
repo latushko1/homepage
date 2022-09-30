@@ -26,7 +26,7 @@ function Works() {
                 {portfolioData.map((item,i)=>(
                     <li key={i}  className='shrink-0 text-center w-[125vw] md:w-screen snap-center flex justify-center items-center flex-col'>
                         <div className='max-w-[65%] rounded-xl'>
-                            <Image className='rounded-xl' src={item.thumbnail} size='3rem'/>
+                            <Image className='rounded-xl' src={item.thumbnail} size='3rem' alt={item.title}/>
                         </div>
                         <h3 className='font-bold text-xl text-primary dark:text-secondary '>{item.title}</h3>
                         <p className='text-primary dark:text-secondary '>{item.des1}</p>

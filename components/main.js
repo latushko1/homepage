@@ -1,5 +1,6 @@
 import React from 'react'
 import Scroller from './scroller'
+import Link from 'next/link'
 
 function Main() {
   return (
@@ -14,7 +15,26 @@ function Main() {
             </h4>
 
             <p className='text-base font-bold text-center'>
-                FREECODECAMP ACADEMIA X AND THEODINPROJECT
+                <Link href='https://www.freecodecamp.org/'>
+                    <a>
+                        FREECODECAMP
+                    </a>
+                </Link>                 
+            </p>
+            <p className='text-base font-bold text-center'>
+            <Link href='https://www.academia-x.com/'>
+                    <a>
+                        ACADEMIA X
+                    </a>
+                </Link>                
+            </p>
+            <p className='text-base font-bold text-center'>
+            AND 
+                <Link href='https://www.theodinproject.com/'>
+                    <a>
+                        THEODINPROJECT
+                    </a>
+                </Link>                
             </p>
         </div>
 
