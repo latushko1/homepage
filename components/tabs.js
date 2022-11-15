@@ -51,7 +51,7 @@ export default function Tabs() {
 							key={category}
 							className={({ selected }) =>
 								classNames(
-									'w-full rounded-lg py-2.5 text-xl font-medium leading-5 text-secondary dark:text-primary',
+									'w-full rounded-lg py-2.5 text-xl font-medium leading-5 text-secondary dark:text-primary ',
 									'ring-white ring-opacity-60 ring-offset-2 focus:outline-none focus:ring-2',
 									selected
 										? 'bg-white shadow'
@@ -68,7 +68,7 @@ export default function Tabs() {
 						<Tab.Panel
 							key={idx}
 							className={classNames(
-								'rounded-xl bg-primary dark:bg-secondary p-3'
+								'rounded-xl bg-primary dark:bg-secondary p-3  min-h-[320px] grid place-items-center'
 							)}
 						>
 							<ul className='text-center'>
